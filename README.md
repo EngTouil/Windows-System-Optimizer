@@ -2,10 +2,10 @@
 
 > A lightweight, fast, and modern Windows system optimization tool built with Python.
 
-![Version](https://img.shields.io/badge/version-2.1-6366F1?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.1-6366F1?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/status-active-10B981?style=flat-square)
-![V3](https://img.shields.io/badge/V3-in%20development-F59E0B?style=flat-square)
+![V2](https://img.shields.io/badge/V2-in%20development-F59E0B?style=flat-square)
 
 ---
 
