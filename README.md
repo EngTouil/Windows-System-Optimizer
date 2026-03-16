@@ -1,144 +1,143 @@
-# ⚡ System Optimizer v1.0.0 (Beta)
+<div align="center">
 
-> A lightweight, fast, and modern Windows system optimization tool built for high performance.
+<img src="https://img.shields.io/badge/System%20Optimizer-v1.0.0--beta-6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="Version"/>
 
-![Version](https://img.shields.io/badge/version-1.0.0--beta-6366F1?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-initial%20release-10B981?style=flat-square)
+# ⚡ Windows System Optimizer
 
----
+**A lightweight, fast, and modern Windows system optimization tool — built for real performance gains.**
 
-## 🚀 Welcome to the First Release!
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square&logo=windows)](https://github.com/EngTouil/Windows-System-Optimizer)
+[![Status](https://img.shields.io/badge/Status-Beta-10B981?style=flat-square)](https://github.com/EngTouil/Windows-System-Optimizer/releases)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/EngTouil/Windows-System-Optimizer?style=flat-square&color=gold)](https://github.com/EngTouil/Windows-System-Optimizer/stargazers)
 
-System Optimizer is a standalone Windows desktop application designed to squeeze every bit of performance out of your machine. This is the **initial Beta launch**, focusing on direct memory control, junk file elimination, and automated maintenance—all without the bloat of traditional "cleaner" apps.
+[📥 Download](#-getting-started) · [✨ Features](#-features) · [🗺️ Roadmap](#-roadmap) · [👨‍💻 Author](#-author)
 
-Built as a standalone `.exe` — no Python installation required.
-
----
-
-## ✨ Core Features
-
-| Feature | What's Inside |
-|---|---|
-| 🧠 **Memory Controller** | Direct Windows API integration to trim process working sets and clear standby cache for instant RAM recovery. |
-| 🗑️ **Deep Junk Cleaner** | High-accuracy scanning logic that targets temp files, browser caches, and app-specific data (Discord, Spotify, VS Code, etc.). |
-| 🚀 **Startup Manager** | A clean interface to view and manage registry-level startup entries and scheduled tasks. |
-| 🎮 **Game Mode** | Instant optimization that kills background overhead, pauses Windows Update, and sets your CPU to high priority. |
-| ⏰ **Smart Scheduler** | Background monitoring that triggers cleaning sessions based on custom time intervals or RAM thresholds. |
-| 📊 **Live Monitor** | Real-time tracking of the top memory-consuming processes with the ability to kill them instantly. |
+</div>
 
 ---
 
-## 📦 Getting Started
+## 🧭 Overview
 
-1. Go to the **[Releases](../../releases)** page.
+**Windows System Optimizer** is a standalone desktop application that gives you direct, low-level control over your Windows system's performance — without the bloat, subscriptions, or misleading promises found in traditional "cleaner" tools.
+
+Engineered for developers, power users, and gamers who want a *real* impact on their machine's speed and responsiveness.
+
+> Built as a single portable `.exe` — no installation, no Python runtime required.
+
+---
+
+## ✨ Features
+
+### 🧠 Memory Controller
+Interfaces directly with the Windows API to trim process working sets and flush the standby cache, recovering usable RAM instantly — no reboot required.
+
+### 🗑️ Deep Junk Cleaner
+High-accuracy scan engine that hunts down temporary files, browser caches, and app-specific debris from tools like Discord, Spotify, VS Code, and more.
+
+### 🚀 Startup Manager
+A clean, transparent interface for managing registry-level startup entries and scheduled tasks — know exactly what runs when your machine boots.
+
+### 🎮 Game Mode
+One-click performance boost that terminates background overhead, suspends Windows Update activity, and sets your CPU process to high priority for maximum frame throughput.
+
+### ⏰ Smart Scheduler
+Background daemon that automatically triggers optimization sessions based on configurable time intervals or custom RAM usage thresholds.
+
+### 📊 Live Process Monitor
+Real-time view of the top memory-consuming processes on your system, with the ability to terminate any of them instantly from within the app.
+
+---
+
+## 📥 Getting Started
+
+1. Navigate to the [**Releases**](../../releases) page.
 2. Download the latest **`SystemOptimizer.exe`**.
-3. Double-click to run (it's 100% portable, no install needed).
-4. Accept the **Administrator prompt** so the app can access system-level optimization tools.
+3. Double-click to launch — it's fully portable, no setup needed.
+4. Approve the **Administrator prompt** to enable system-level access.
+
+> **Note:** Administrator privileges are required for memory management and startup control features.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python** — Core logic and automation.
-- **CustomTkinter** — For a modern, sleek UI.
-- **Windows API (ctypes)** — Direct low-level system manipulation.
-- **psutil & pystray** — For system monitoring and tray integration.
-- **PyInstaller** — Compiled to a single standalone executable.
-
----
-
-## 📂 Project Structure
-
-Gemini said
-You're totally right—if it's the first release, it should sound like a grand opening, not a repair shop!
-
-Here is the "Fresh Version" of your project README.md. I’ve updated the features to sound like core capabilities and fixed the author section to include ISGA.
-
-Copy and paste this into your project README.md:
-Markdown
-# ⚡ System Optimizer v1.0.0 (Beta)
-
-> A lightweight, fast, and modern Windows system optimization tool built for high performance.
-
-![Version](https://img.shields.io/badge/version-1.0.0--beta-6366F1?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-initial%20release-10B981?style=flat-square)
-
----
-
-## 🚀 Welcome to the First Release!
-
-System Optimizer is a standalone Windows desktop application designed to squeeze every bit of performance out of your machine. This is the **initial Beta launch**, focusing on direct memory control, junk file elimination, and automated maintenance—all without the bloat of traditional "cleaner" apps.
-
-Built as a standalone `.exe` — no Python installation required.
-
----
-
-## ✨ Core Features
-
-| Feature | What's Inside |
+| Layer | Technology |
 |---|---|
-| 🧠 **Memory Controller** | Direct Windows API integration to trim process working sets and clear standby cache for instant RAM recovery. |
-| 🗑️ **Deep Junk Cleaner** | High-accuracy scanning logic that targets temp files, browser caches, and app-specific data (Discord, Spotify, VS Code, etc.). |
-| 🚀 **Startup Manager** | A clean interface to view and manage registry-level startup entries and scheduled tasks. |
-| 🎮 **Game Mode** | Instant optimization that kills background overhead, pauses Windows Update, and sets your CPU to high priority. |
-| ⏰ **Smart Scheduler** | Background monitoring that triggers cleaning sessions based on custom time intervals or RAM thresholds. |
-| 📊 **Live Monitor** | Real-time tracking of the top memory-consuming processes with the ability to kill them instantly. |
-
----
-
-## 📦 Getting Started
-
-1. Go to the **[Releases](../../releases)** page.
-2. Download the latest **`SystemOptimizer.exe`**.
-3. Double-click to run (it's 100% portable, no install needed).
-4. Accept the **Administrator prompt** so the app can access system-level optimization tools.
-
----
-
-## 🛠️ Tech Stack
-
-- **Python** — Core logic and automation.
-- **CustomTkinter** — For a modern, sleek UI.
-- **Windows API (ctypes)** — Direct low-level system manipulation.
-- **psutil & pystray** — For system monitoring and tray integration.
-- **PyInstaller** — Compiled to a single standalone executable.
+| Core Logic | Python 3.10+ |
+| UI Framework | CustomTkinter |
+| System Access | Windows API via `ctypes` |
+| Process Monitoring | `psutil` |
+| Tray Integration | `pystray` |
+| Distribution | PyInstaller (single `.exe`) |
 
 ---
 
 ## 📂 Project Structure
 
+```
 app/
-├── main.py              # App entry point
+├── main.py                 # Application entry point
 ├── core/
-│   ├── system_tools.py  # API constants & privilege helpers
-│   ├── cleaner.py       # RAM & standby optimization logic
-│   └── disk_utils.py    # Deep scanning & file detection
+│   ├── system_tools.py     # API constants & privilege helpers
+│   ├── cleaner.py          # RAM & standby cache optimization
+│   └── disk_utils.py       # Deep scan & file detection logic
 ├── ui/
-│   ├── memory.py        # RAM control interface
-│   ├── disk.py          # Junk cleaner interface
-│   └── gamemode.py      # Performance boost interface
+│   ├── memory.py           # RAM control interface
+│   ├── disk.py             # Junk cleaner interface
+│   └── gamemode.py         # Performance boost interface
 ├── utils/
-│   ├── settings.py      # JSON config management
-│   └── history.py       # Logging & session tracking
+│   ├── settings.py         # JSON-based config management
+│   └── history.py          # Session logging & history tracking
 └── assets/
-└── icon.ico         # Visual assets
+    └── icon.ico            # Application icon
+```
 
 ---
 
-## 🚧 What’s Next (Roadmap)
+## 🗺️ Roadmap
 
-Now that the core engine is live, I’m working on:
-- [ ] A dedicated Installer with Start Menu shortcuts.
-- [ ] Auto-update system to keep you on the latest version.
-- [ ] Expanded browser support for cleaner profiles.
+The core engine is live. Here's what's coming next:
+
+- [ ] Dedicated installer with Start Menu integration
+- [ ] Auto-update system for seamless version management
+- [ ] Expanded browser support (Firefox, Edge profiles)
+- [ ] Per-app optimization profiles
+- [ ] Dark / Light theme toggle
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m 'Add your feature'`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request
 
 ---
 
 ## 👨‍💻 Author
 
-Built by **Mohammed**, a 2nd-year Engineering student at **ISGA**.  
-Driven by a passion for system optimization and building tools that actually work.
+<table>
+  <tr>
+    <td align="center">
+      <strong>Mohammed Touil</strong><br/>
+      2nd-Year Engineering Student · <strong>ISGA</strong><br/>
+      <a href="https://github.com/EngTouil">@EngTouil</a>
+    </td>
+  </tr>
+</table>
 
-> ⚡ *If this tool helped your system, feel free to leave a star!*
+Driven by a passion for systems programming and building tools that deliver genuine, measurable results.
+
+---
+
+<div align="center">
+
+**If this tool improved your system's performance, consider leaving a ⭐ — it helps more than you think.**
+
+</div>
