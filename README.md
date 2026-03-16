@@ -128,8 +128,6 @@ Contributions, issues, and feature requests are welcome!
 
 [![GitHub](https://img.shields.io/badge/GitHub-EngTouil-181717?style=flat-square&logo=github)](https://github.com/EngTouil)
 
-Driven by a passion for systems programming and building tools that deliver genuine, measurable results.
-
 ---
 
 <div align="center">
