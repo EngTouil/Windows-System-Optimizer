@@ -100,11 +100,13 @@ app/
 
 The core engine is live. Here's what's coming next:
 
-- [ ] Dedicated installer with Start Menu integration
-- [ ] Auto-update system for seamless version management
-- [ ] Expanded browser support (Firefox, Edge profiles)
-- [ ] Per-app optimization profiles
-- [ ] Dark / Light theme toggle
+| Feature | Status |
+|---|---|
+| Dedicated installer with Start Menu integration | ![Planned](https://img.shields.io/badge/Planned-6366F1?style=flat-square) |
+| Auto-update system for seamless version management | ![Planned](https://img.shields.io/badge/Planned-6366F1?style=flat-square) |
+| Expanded browser support (Firefox, Edge profiles) | ![Planned](https://img.shields.io/badge/Planned-6366F1?style=flat-square) |
+| Per-app optimization profiles | ![In%20Progress](https://img.shields.io/badge/In%20Progress-F59E0B?style=flat-square) |
+| Dark / Light theme toggle | ![Planned](https://img.shields.io/badge/Planned-6366F1?style=flat-square) |
 
 ---
 
@@ -122,15 +124,9 @@ Contributions, issues, and feature requests are welcome!
 
 ## 👨‍💻 Author
 
-<table>
-  <tr>
-    <td align="center">
-      <strong>Mohammed Touil</strong><br/>
-      2nd-Year Engineering Student · <strong>ISGA</strong><br/>
-      <a href="https://github.com/EngTouil">@EngTouil</a>
-    </td>
-  </tr>
-</table>
+**Mohammed Touil** — 2nd-Year Engineering Student at **ISGA**
+
+[![GitHub](https://img.shields.io/badge/GitHub-EngTouil-181717?style=flat-square&logo=github)](https://github.com/EngTouil)
 
 Driven by a passion for systems programming and building tools that deliver genuine, measurable results.
 
