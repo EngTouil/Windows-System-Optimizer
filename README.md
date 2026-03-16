@@ -131,7 +131,7 @@ All rights reserved © 2026
 
 ## Author
 
-Built by a second-year Engineering student .
+Built by Mohammed, a second-year Engineering student at ISGA.
 Feedback, issues and suggestions are welcome — open an issue or reach out directly.
 
 > ⚡ *If this saved you some RAM, consider leaving a star.*
