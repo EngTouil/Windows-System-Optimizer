@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/EngTouil/Windows-System-Optimizer?style=flat-square&color=gold)](https://github.com/EngTouil/Windows-System-Optimizer/stargazers)
 
-[📥 Download](#-getting-started) · [✨ Features](#-features) · [🗺️ Roadmap](#-roadmap) · [👨‍💻 Author](#-author)
+
 
 </div>
 
